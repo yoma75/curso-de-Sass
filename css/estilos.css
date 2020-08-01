@@ -1,0 +1,79 @@
+.tablas tr:hover {
+  background-color: #dbd879;
+}
+
+.btn {
+  display: inline-block;
+  color: white;
+  background-color: #ea83ee;
+  line-height: 2.5;
+  border-radius: 12px;
+  font-size: 24px;
+}
+
+.btn__icon {
+  font-size: .6em;
+}
+
+.btn--info {
+  background-color: #4268dd;
+}
+
+.ejemplo-pseudoclase {
+  color: red;
+}
+
+.ejemplo-pseudoclase:hover {
+  color: blue;
+}
+
+.botoncito1, .botoncito5 {
+  background-color: #14dcdc;
+  width: 90px;
+  height: 27px;
+  color: #2649e6;
+  border: 1px solid #080808;
+}
+
+h1 {
+  color: #25b0b6;
+}
+
+.prueba {
+  background-color: burlywood;
+  padding: 15px;
+}
+
+p {
+  font-size: 18px;
+}
+
+section {
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 12px;
+  background-color: lighter(#737373, 25%);
+  padding: 24px;
+  border-radius: 12px;
+}
+
+@media only screen and (min-width: 800px) {
+  section {
+    background-color: red;
+  }
+}
+
+.max-width--huge {
+  max-width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 12px;
+}
+
+header {
+  background-color: #ea83ee;
+  color: white;
+  padding: 24px;
+}
+/*# sourceMappingURL=estilos.css.map */

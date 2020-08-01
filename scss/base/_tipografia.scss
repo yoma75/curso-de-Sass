@@ -1,0 +1,20 @@
+// $TIPOGRAFIA
+h1 {
+    color: $color-invert;
+}
+
+
+@function suma($num1, $num2) {
+    @return $num1 + $num2;
+}
+
+.prueba {
+    background-color: burlywood;
+    padding: suma(10px, 5px);
+}
+
+// _funciones
+p {
+    font-size: map-get($fs, normal);
+}
+

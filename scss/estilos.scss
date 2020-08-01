@@ -1,0 +1,23 @@
+// Las variables siempre deben de ir al inicio
+
+// librerias, settings y variables
+@import "librerias/variables";
+@import "librerias/mixins";
+@import "librerias/funciones";
+
+// Elementos base
+@import "tablas";
+@import "base/botones";
+@import "base/tipografia";
+
+// Componentes
+@import "componentes/grid";
+
+
+// Layout
+@import "layout/layout";
+
+
+
+// Este siempre va de ultimo
+@import "componentes/utilidades";

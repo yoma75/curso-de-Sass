@@ -1,0 +1,11 @@
+// Este archivo toca crearlo junto con la carpeta .vscode, el cual permite que nuestros archivos .css esten guardados en una carpeta css, para tener ordenado el proyecto.
+{
+    "liveSassCompile.settings.formats":[
+        // This is Default.
+        {
+            "format": "expanded",
+            "extensionName": ".css",
+            "savePath": "/css/"
+        } 
+    ]
+}

@@ -1,0 +1,23 @@
+// $LAYOUT
+
+section {
+    @include max-width; // llama el mixin creado
+    @include response-to(800px) {
+        // aqui va el content que se creo el mixin response-to
+        background-color: red;
+    }
+    background-color: $color-lightgrey;
+    padding: $padding;
+    border-radius: $border-radius;
+}
+
+.max-width--huge {
+    @include max-width(80%); // llama el mixin y le cambia el valor de 800px a 80%
+}
+
+header {
+    background-color: $color-brand;
+    color: $color-white;
+    padding: $padding;
+}
+

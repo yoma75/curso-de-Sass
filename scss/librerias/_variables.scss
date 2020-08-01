@@ -1,0 +1,34 @@
+// $COLORS
+// Estos colores son para la cabecera por ejemplo
+
+$color-brand: #ea83ee;
+$color-secondary: rgb(219, 216, 121);
+
+$color-grey: #737373;
+$color-darkgrey: darken($color-grey, 25%);
+$color-lightgrey: lighter($color-grey, 25%);
+$color-black: rgb(0,0,0);
+$color-white: rgb(255, 255, 255);
+
+// Texturas (colores de mensajes)
+$color-alert: rgb(252,228,207);
+$color-error: rgb(218,79,73);
+$color-invert: invert($color-error);
+$color-info: rgb(66,104,221);
+$color-success: rgb(91,183,91);
+
+// Tipografia
+$basefont: 'Quicksand', sans-serif;
+$basefontsize: 16px;
+
+$buttoncolor: $color-white;
+$buttonbackgroundcolor: $color-brand;
+$buttonfontsize: $basefontsize * 1.5;
+
+// Constantes
+$border-radius: 12px;
+$padding: 24px;
+$page-max-width: 800px;
+
+
+

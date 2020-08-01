@@ -1,0 +1,43 @@
+// $BOTONES
+.btn {
+    display: inline-block;
+    color: $buttoncolor;
+    background-color: $buttonbackgroundcolor;
+    line-height: 2.5;
+    border-radius: $border-radius;
+    font-size: $buttonfontsize;
+}
+
+    .btn__icon {
+        font-size: .6em;
+    }
+
+    .btn--info {
+        background-color: $color-info;
+    }
+
+.ejemplo-pseudoclase {
+    color: red;
+    &:hover {
+        color: blue;
+    }
+}
+
+// Extend: herencia
+%botoncito {
+    background-color: rgb(20, 220, 220);
+    width: 90px;
+    height: 27px;
+    color: rgb(38, 73, 230);
+    border: 1px solid rgb(8, 8, 8);
+}
+
+// Se heredan las propiedades
+.botoncito1 {
+    @extend %botoncito;
+}
+.botoncito5 {
+    @extend %botoncito;
+}
+
+
